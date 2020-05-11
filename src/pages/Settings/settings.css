@@ -1,5 +1,14 @@
 
+.setting-page {
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
 .setting-page .main-block {
-    background-color: #e8c4c4;
+    background-color: #cecece;
     color: black;
+}
+
+.setting-page h5 {
+    color: #910037;
 }

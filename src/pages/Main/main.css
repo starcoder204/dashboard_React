@@ -1,3 +1,8 @@
+.main-page{
+    height: 100vh;
+    background-color: #e0e2e2;
+}
+
 .main-top-div {
     margin: 40px 20px;
 }

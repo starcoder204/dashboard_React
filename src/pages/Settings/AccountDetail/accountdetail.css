@@ -1,3 +1,11 @@
 .main-block.account-detail {
     height: 394px !important;
 }
+
+.main-block.account-detail .detail-title {
+    color: #3d3dc1;
+}
+
+.main-block.account-detail .detail-content {
+    color: #0a3c27;
+}

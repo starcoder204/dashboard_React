@@ -1,10 +1,8 @@
 
 .login-page{
     height:100vh;
-    /* background: url('./../../assets/images/background.png') no-repeat center center fixed;  */
     background-color: #910037;
     background-size: cover;
-    font-family: Myriad Pro Regular, sans-serif;
     text-align:center;
     font-size: 20px;
 }

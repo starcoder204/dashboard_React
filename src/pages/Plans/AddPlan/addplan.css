@@ -7,21 +7,3 @@
 .plan-add-btn button {
     width: 90% !important;
 }
-
-.PlanTable-container-2::-webkit-scrollbar {
-    transform: translateX(-6px);
-    box-shadow: inset 0 0 1px rgba(0,0,0,0.9);
-    height: 0;
-    width: 12px;
-}
-
-.PlanTable-container-2::-webkit-scrollbar-track {
-    background-color: #67676a;
-    border-radius: 6px;
-}
-
-.PlanTable-container-2::-webkit-scrollbar-thumb {
-    border-radius: 6px 6px 0 0;
-    background-color: rgb(121, 24, 24);
-    box-shadow: inset 0 0 1px rgba(0,0,0,0.9);
-}
