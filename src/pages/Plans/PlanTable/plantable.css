@@ -1,0 +1,25 @@
+.MuiPaper-root.PlanTable-root-1 {
+    background-color: #b4b4b5 !important;
+}
+
+.PlanTable-container-2 {
+    max-height: 517px !important;
+    height: 517px;
+}
+
+.MuiTableCell-stickyHeader {
+    background-color: #bd859a !important;
+    color: white !important;
+    font-size: 17px !important;
+    font-weight: 600 !important;
+}
+
+.MuiTableCell-body {
+    color: rgba(0, 0, 0) !important;
+    font-size: 16px !important;
+    border-bottom: 1px solid rgb(148, 80, 80) !important;
+}
+
+.MuiTableCell-root.MuiTableCell-body button {
+    width: 90% !important;
+}

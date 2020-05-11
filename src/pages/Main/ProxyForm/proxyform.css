@@ -1,0 +1,16 @@
+.form-btn {
+    text-align: center;
+    margin: 5px 5px;
+}
+
+.form-btn button{
+    width: 90% !important;
+    color: #fff !important;
+    background-color: #fe0470 !important;
+    border-color: #cc2095 !important;
+}
+
+/* .btn-primary:focus {
+    outline: none !important;
+    box-shadow: none !important;
+} */
