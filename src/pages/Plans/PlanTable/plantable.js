@@ -91,7 +91,7 @@ class PlanTable extends Component {
         const { classes } = this.props;
         const { rowsPerPage, page } = this.state;
         return (
-            <div className="main-block">
+            <div className="main-block plan-table-block">
             <Paper className={classes.root}>
                 <TableContainer className={classes.container}>
                     <Table stickyHeader aria-label="sticky table">

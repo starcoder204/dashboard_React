@@ -1,4 +1,4 @@
-.main-page, .setting-page {
+.main-page, .setting-page, .plan-page {
     height: 100vh;
     background-color: #e0e2e2;
     background-size: cover;
@@ -27,6 +27,9 @@
 
 @media only screen and (max-width: 768px) {
     .main-page{
+        height: 100%;
+    }
+    .plan-page{
         height: 100%;
     }
 }

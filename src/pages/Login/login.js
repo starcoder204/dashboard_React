@@ -96,12 +96,12 @@ class Login extends Component {
               </button>
 
               <div className="row">
-                  <div className="col-md-6">
+                  <div className="col-6">
                     <div className="signup-btn text-left">
                         <span onClick={emailValid?()=>this.handleRegister():null}> Register </span>
                     </div>
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-6">
                     <div className="forgot-btn text-right">
                         <span onClick={emailValid?()=>this.handleForgotPassword():null}> Forgot Password </span>
                     </div>

@@ -41,7 +41,7 @@ class Plans extends Component {
 
   render() {
     return (
-      <div className="main-page">
+      <div className="plan-page">
         <Header/>
         <Container>
           <div className="mt-4">

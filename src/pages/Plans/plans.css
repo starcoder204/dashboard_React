@@ -1,0 +1,11 @@
+@media only screen and (max-width: 768px) {
+    .plan-page .container {
+        padding-right: 2px !important;
+        padding-left: 2px !important;
+    }
+    
+    .plan-page .container .plan-table-block {
+        padding: 2px 2px;
+    }
+}
+
