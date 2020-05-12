@@ -1,3 +1,10 @@
+.main-page, .setting-page {
+    height: 100vh;
+    background-color: #e0e2e2;
+    background-size: cover;
+    padding-top: 85px;
+}
+
 .main-block {
     background-color: #910037;
     color: white;
@@ -16,4 +23,10 @@
     font-size:13px;
     color:red;
     margin-left:4px;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-page{
+        height: 100%;
+    }
 }

@@ -1,5 +1,5 @@
 
-.login-page{
+.login-page {
     height:100vh;
     background-color: #910037;
     background-size: cover;
@@ -7,11 +7,11 @@
     font-size: 20px;
 }
 
-.login-page a:hover{
+.login-page a:hover {
     text-decoration: none !important;
 }
 
-.login_div{
+.login_div {
     width:400px;
     margin:0 auto;
     opacity:1 !important;
@@ -21,32 +21,34 @@
     margin-top:100px;
 }
 
-.login_div .top_div{
+.login_div .top_div {
     color:#475971;
     background:#eff3f6;
 }
 
-.login_div .top_div span{
+.login_div .top_div span {
     color:#ffd618;
     font-size:15px;
     text-decoration: underline;
     font-family: Sentinel Semibold, sans-serif;
 }
-.login_div .top_div h2{
+
+.login_div .top_div h2 {
     font-family: Gilroy Bold, sans-serif;
     color: #072f5d;
     font-weight:600;
 }
-.login_div .top_div .detail-title{
+
+.login_div .top_div .detail-title {
     font-family: Sentinel LightItalic, sans-serif;
     color:#414f60;
 }
 
- form{
+form {
     background:#ffffff;
- }
+}
 
- .signup-btn{
+.signup-btn {
     margin: 0 auto !important;
     margin-top: 5px;
     text-decoration: none;
@@ -55,7 +57,7 @@
     color: #b73fde;
 }
 
-.forgot-btn{
+.forgot-btn {
     margin: 0 auto !important;
     margin-top: 5px;
     text-decoration: none;
@@ -64,14 +66,15 @@
     color: #de3f81;
 }
 
-.inputText .help-text{
+.inputText .help-text {
     color: #414f60;
     font-size:16px;
     font-weight: 500;
 }
 
 @media only screen and (max-width: 500px) {
-    .login-page{
-        padding-top:10px;
+    .login_div {
+        width: 95% !important;
+        margin-top: 20px !important;
     }
 }

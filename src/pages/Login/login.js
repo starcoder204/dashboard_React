@@ -38,23 +38,19 @@ class Login extends Component {
   }
 
   handleLogin(e) {
-    console.log("Handel Login");
-    console.log("Email:", this.state.email);
-    console.log("Password:", this.state.password);
-    var flag = this.state.email.match(/^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i);
-    if (flag == null) {
+    var email_flag = this.state.email.match(/^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i);
+    if (email_flag == null) {
         this.setState({isInvalidEmail: false});
     } else {
         this.setState({isInvalidEmail: true});
     }
-    
-    if(this.state.password.length < 5){
+    var password_flag = this.state.password.length >= 6;
+    if(password_flag == false){
         this.setState({isInvalidPassword:false});
     } else{
         this.setState({isInvalidPassword:true});
     }
-    if (this.state.isInvalidEmail == true && this.state.isInvalidPassword == true) {
-        
+    if (email_flag !== null && password_flag == true) {
         history.push('/main');
     }
   }
@@ -82,7 +78,7 @@ class Login extends Component {
               <div className="form-group text-left mb-0">
                 <div className='inputText'>
                   <span className="help-text"> Email </span>
-                  <input type="email" className="form-control" onChange={(e)=>this.handleEmail(e)} name="email" value={this.state.email} required placeholder="Enter your email address" />
+                  <input type="email" className="form-control" onChange={(e)=>this.handleEmail(e)} name="email" value={this.state.email} required placeholder="Type your email address" />
                   <span className="help-block-info" style={this.state.isInvalidEmail ? {display:'none'} : {display:'block'}}> Invalid Email </span>
                 </div>
               </div>
@@ -90,12 +86,12 @@ class Login extends Component {
               <div className="form-group text-left">
                 <div className='inputText'>
                   <span className="help-text"> Password </span>
-                  <input type="password" className="form-control" onChange={(e)=>this.handlePassword(e)} name="password" required placeholder="Enter your password" />
+                  <input type="password" className="form-control" onChange={(e)=>this.handlePassword(e)} name="password" required placeholder="Type your password" />
                   <span className="help-block-info" style={this.state.isInvalidPassword ? {display:'none'} : {display:'block'}}> Password is weak </span>
                 </div>
               </div>
               
-              <button type="button" onClick={(e)=>this.handleLogin(e)} className="btn btn-primary btn-block mb-2">
+              <button type="button" onClick={(e)=>this.handleLogin(e)} className="btn btn-danger btn-block mb-2">
                   Sign In
               </button>
 

@@ -85,7 +85,7 @@ class Main extends Component {
         <Header/>
         <Container>
           {this.mainTop()}
-          <Row>
+          <Row className="dashboard-page">
               <ProxyForm/>
               <RunData run_data={this.run_data}/>
           </Row>

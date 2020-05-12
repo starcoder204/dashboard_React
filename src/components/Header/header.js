@@ -20,27 +20,25 @@ class Header extends Component {
 
   render() {
     return (
-        <div>
-            <Navbar bg="light" expand="lg">
-              <Navbar.Brand href="/main"><img src={logo}></img></Navbar.Brand>
-              <Navbar.Toggle aria-controls="basic-navbar-nav" />
-              <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
-                  <Nav.Link eventKey="1" href="/main">Home</Nav.Link>
-                  <Nav.Link href="/plan">Plans</Nav.Link>
-                  <Nav.Link href="/setting">Settings</Nav.Link>
-                </Nav>
-                <Form inline>
-                  <NavDropdown title={this.state.name} id="basic-nav-dropdown" className="justify-content-end">
-                    <NavDropdown.Item href="/login">Log out</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="/setting">Settings</NavDropdown.Item>
-                  </NavDropdown>
-                </Form>
-              
-              </Navbar.Collapse>
-          </Navbar>
-        </div>
+        <Navbar bg="light" expand="lg">
+          <Navbar.Brand href="/main"><img src={logo}></img></Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="mr-auto">
+              <Nav.Link eventKey="1" href="/main">Home</Nav.Link>
+              <Nav.Link href="/plan">Plans</Nav.Link>
+              <Nav.Link href="/setting">Settings</Nav.Link>
+            </Nav>
+            <Form inline>
+              <NavDropdown title={this.state.name} id="basic-nav-dropdown" className="justify-content-end">
+                <NavDropdown.Item href="/login">Log out</NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item href="/setting">Settings</NavDropdown.Item>
+              </NavDropdown>
+            </Form>
+          
+          </Navbar.Collapse>
+      </Navbar>
     );
   }
 }

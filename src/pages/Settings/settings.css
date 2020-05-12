@@ -1,7 +1,6 @@
 
 .setting-page {
-    height: 100vh;
-    background-color: #f9f9f9;
+    background-color: #f9f9f9 !important;
 }
 
 .setting-page .main-block {

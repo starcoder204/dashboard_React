@@ -10,7 +10,6 @@ class RunData extends Component {
   constructor(props){
     super(props);
     this.run_data = this.props.run_data;
-    console.log(this.run_data);
   }
 
   runData() {
