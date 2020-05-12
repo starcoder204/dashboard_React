@@ -77,13 +77,13 @@ class Login extends Component {
             <form className="form p-5">
               <div className="form-group text-left mb-0">
                 <div className='inputText'>
-                  <span className="help-text"> Email </span>
+                  <span className="help-text"> Email Address</span>
                   <input type="email" className="form-control" onChange={(e)=>this.handleEmail(e)} name="email" value={this.state.email} required placeholder="Type your email address" />
                   <span className="help-block-info" style={this.state.isInvalidEmail ? {display:'none'} : {display:'block'}}> Invalid Email </span>
                 </div>
               </div>
               
-              <div className="form-group text-left">
+              <div className="form-group text-left mt-2">
                 <div className='inputText'>
                   <span className="help-text"> Password </span>
                   <input type="password" className="form-control" onChange={(e)=>this.handlePassword(e)} name="password" required placeholder="Type your password" />
