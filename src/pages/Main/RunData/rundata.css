@@ -1,3 +1,7 @@
+.dashboard-page .main-block {
+    height: 470px !important;
+}
+
 .main-run-data table {
     color: white !important;
 }
@@ -37,6 +41,10 @@
     .table-responsive {
         height: 491px !important;
     }
+
+    .dashboard-page .main-block {
+        height: 570px !important;
+    }
 }
 
 
@@ -44,6 +52,10 @@
 @media only screen and (max-width: 768px) {
     .table-responsive {
         font-size: 14px;
+    }
+
+    .dashboard-page .main-block {
+        height: 610px !important;
     }
 
     .table-responsive::-webkit-scrollbar {
